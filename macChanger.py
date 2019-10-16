@@ -63,5 +63,6 @@ def main():
         if args.reset:
                 resetMacAddress(args.interface)
                 print('[+] Reset', args.interface, 'Mac Address')
+                
 if __name__ == '__main__':
         main()
